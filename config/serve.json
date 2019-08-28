@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://ramspdev.sharepoint.com/GTPTrainingSite/Lists/Orders/AllItems.aspx?viewid=89e9d538%2Db139%2D42d2%2D9162%2D54c1cb569469",
+      "fieldCustomizers": {
+        "Percent": {
+          "id": "9d299829-354a-4de3-a03d-da7d52be7f59",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    },
+    "helloWorld": {
+      "pageUrl": "https://ramspdev.sharepoint.com/GTPTrainingSite/Lists/Orders/AllItems.aspx?viewid=89e9d538%2Db139%2D42d2%2D9162%2D54c1cb569469  ",
+      "fieldCustomizers": {
+        "Percent": {
+          "id": "9d299829-354a-4de3-a03d-da7d52be7f59",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    }
+  }
+}
